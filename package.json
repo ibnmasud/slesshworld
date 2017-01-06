@@ -1,0 +1,21 @@
+{
+  "name": "nworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "vandium": "^3.3.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "lambda-tester": "^2.6.1",
+    "proxyquire": "^1.7.10",
+    "serverless-offline": "^3.8.2",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test":     "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec "
+  },
+  "author": "",
+  "license": "ISC"
+}
